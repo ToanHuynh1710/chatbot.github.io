@@ -1,3 +1,6 @@
 language: "en"
-
+##
 pipeline: "spacy_sklearn"
+ ##- name: tokenizer_whitespace
+ ##- name: "SpacyNLP"
+ ##- name: "SpacyTokenizer"

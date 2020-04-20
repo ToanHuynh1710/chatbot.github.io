@@ -20,7 +20,7 @@ def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models
     fallback = FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.2, nlu_threshold=0.2)
 
     agent = Agent(domain_file,
-              policies=[MemoizationPolicy(max_history=1),KerasPolicy(epochs=200,
+              policies=[MemoizationPolicy(max_history=5),KerasPolicy(epochs=200,
         batch_size=20), fallback])
     training_data = agent.load_data(dialog_training_data_file)
     agent.train(

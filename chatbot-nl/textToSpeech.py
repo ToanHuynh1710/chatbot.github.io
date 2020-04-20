@@ -30,13 +30,13 @@ def text_to_speech(answer):
 	
 
 # test
-answer = "Xin lỗi, câu hỏi không có trong tập dữ liệu"
+#answer = "Xin chào, tôi là trợ lý ảo niên luận ngành khoa học máy tính. Tôi có thể giúp gì cho bạn?"
 
-link_mp3 = text_to_speech(answer)
-print(link_mp3)
-time.sleep(3)
+#link_mp3 = text_to_speech(answer)
+#print(link_mp3)
+#time.sleep(10)
 
-if os.path.exists("mp3/answer.mp3"):
-	os.remove("mp3/answer.mp3")
+# # if os.path.exists("mp3/answer.mp3"):
+# # 	os.remove("mp3/answer.mp3")
 
-urllib.request.urlretrieve(link_mp3, 'mp3/noneLabel.mp3')
+#urllib.request.urlretrieve(link_mp3, 'mp3/noneLabel.mp3')

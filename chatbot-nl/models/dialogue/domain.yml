@@ -1,13 +1,8 @@
 %YAML 1.1
 ---
 actions:
-- utter_greet
-- utter_greet_with_name
-- utter_bye
 - utter_unclear
-- utter_func_list
 - utter_thank
-- utter_ask_name
 - utter_thacsi
 - utter_thacsi_nganhdaotao
 - utter_thacsi_doingugv
@@ -34,20 +29,10 @@ actions:
 - utter_chuyentiep
 config:
   store_entities_as_slots: true
-entities:
-- cust_sex
-- cust_name
+entities: []
 forms: []
 intents:
-- greet:
-    use_entities: true
 - thank:
-    use_entities: true
-- bye:
-    use_entities: true
-- ask_func_list:
-    use_entities: true
-- give_name:
     use_entities: true
 - ask_thacsi:
     use_entities: true
@@ -95,22 +80,8 @@ intents:
     use_entities: true
 - ask_chuyentiep:
     use_entities: true
-slots:
-  cust_name:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
-  cust_sex:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
+slots: {}
 templates:
-  utter_ask_name:
-  - text: Mình là trợ lý ảo niên luận ngành khoa học máy tính. Bạn cần trợ giúp gì
-      ạ?
-  utter_bye:
-  - text: chào bạn và mong sớm gặp lại quý khách!
-  - text: chào bạn và chúc bạn một ngày tốt lành!
   utter_chuyentiep:
   - text: để biết thêm thông tin chi tiết xin đọc điều 12 của thông tư số 09/2017
       bộ GDĐT
@@ -129,16 +100,6 @@ templates:
       tuyển sinh được khắc phục và vẫn đảm bảo các điều kiện mở ngành thạc sĩ hoặc
       tiến sĩ thì bộ trưởng bộ GDĐT quyết định cho phép cơ sở đào tạo được tuyển sinh
       trở lại
-  utter_func_list:
-  - text: Mình chuyên tư vấn về thông tư số 09/2017/TT-BDGĐT  về việc quy định điều
-      kiện, trình tự, thủ tục mở ngành hoặc chuyên ngành đào tạo và đình chỉ tuyển
-      sinh, thu hồi quyết định mở ngành hoặc chuyên ngành đào tạo trình độ thạc sĩ,
-      trình độ tiến sĩ
-  utter_greet:
-  - text: Xin chào, bạn có thể cho mình biết tên để tiện xưng hô không ạ
-  utter_greet_with_name:
-  - text: Kính chào {cust_sex} {cust_name}. Tôi có thể giúp gì được {cust_sex} {cust_name}
-      ạ?
   utter_quyetdinhmonganh:
   - text: việc xem xét hồ sơ mở ngành đào tạo trình độ thạc sĩ, tiến sĩ được thực
       hiện trong thời hạn 30 ngày, kế từ ngày nhận được đủ hồ sơ theo quy định của
@@ -184,8 +145,7 @@ templates:
       dục và đào tạo ủy quyền. Khi đảm bảo đầy đủ các điều kiện mở ngành thạc sĩ hoặc
       tiến sĩ
   utter_thank:
-  - text: Cảm ơn bạn quá khen ah!
-  - text: Dạ không có gì, đó là trách nhiệm của em mà!
+  - text: không có gì, đó là trách nhiệm của tôi!
   utter_thuhoi:
   - text: 'Bị thu hồi quyết định mở ngành khi xảy ra một trong các trường hợp sau
       đây: có hành vi gian lận để được mở ngành; vi phạm nghiêm trọng về việc tuyển

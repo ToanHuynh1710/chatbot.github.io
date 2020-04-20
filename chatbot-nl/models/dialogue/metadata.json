@@ -3,85 +3,82 @@
     "action_listen": {
       "slots": []
     },
-    "utter_bye": {
-      "slots": []
-    },
-    "utter_thacsi_nganhdaotao": {
-      "slots": []
-    },
-    "utter_thacsi_cosovatchat": {
-      "slots": []
-    },
-    "utter_thutuc_tailieu": {
-      "slots": []
-    },
-    "utter_dinhchi_thoigian": {
-      "slots": []
-    },
-    "utter_thamquyen": {
-      "slots": []
-    },
-    "utter_dinhchi": {
-      "slots": []
-    },
-    "utter_thacsi_dieukienkhac": {
-      "slots": []
-    },
-    "utter_tiensi_doingugv": {
-      "slots": []
-    },
-    "utter_tiensi_nganhdaotao": {
+    "utter_thuhoi": {
       "slots": []
     },
     "utter_dinhchi_xoa": {
       "slots": []
     },
-    "utter_thacsi": {
-      "slots": []
-    },
     "utter_thutuc": {
       "slots": []
     },
-    "utter_thamdinh": {
+    "utter_tiensi_doingugv": {
+      "slots": []
+    },
+    "utter_trinhtu": {
       "slots": []
     },
     "utter_trachnhiem": {
       "slots": []
     },
-    "utter_chuyentiep": {
-      "slots": []
-    },
-    "utter_thank": {
-      "slots": []
-    },
-    "utter_func_list": {
-      "slots": []
-    },
-    "utter_thamdinh_tieuchuan": {
-      "slots": []
-    },
-    "utter_thuhoi": {
+    "utter_thutuc_dean": {
       "slots": []
     },
     "utter_quyetdinhmonganh": {
       "slots": []
     },
-    "utter_thutuc_dean": {
-      "slots": []
-    },
     "utter_thutuc_congvan": {
       "slots": []
     },
-    "utter_greet_with_name": {
+    "utter_thacsi_nganhdaotao": {
       "slots": []
     },
-    "utter_trinhtu": {
+    "utter_thamdinh": {
+      "slots": []
+    },
+    "utter_tiensi": {
+      "slots": []
+    },
+    "utter_thamquyen": {
+      "slots": []
+    },
+    "utter_tiensi_nganhdaotao": {
+      "slots": []
+    },
+    "utter_thutuc_tailieu": {
+      "slots": []
+    },
+    "utter_tiensi_cosovatchat": {
+      "slots": []
+    },
+    "utter_thacsi_dieukienkhac": {
+      "slots": []
+    },
+    "utter_thank": {
+      "slots": []
+    },
+    "utter_thacsi_doingugv": {
+      "slots": []
+    },
+    "utter_thamdinh_tieuchuan": {
+      "slots": []
+    },
+    "utter_chuyentiep": {
+      "slots": []
+    },
+    "utter_thacsi_cosovatchat": {
+      "slots": []
+    },
+    "utter_dinhchi": {
+      "slots": []
+    },
+    "utter_thacsi": {
       "slots": []
     }
   },
   "python": "3.6.8",
   "max_histories": [
-    1,
+    5,
     5,
     null
   ],
@@ -91,7 +88,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20200319-105016",
+  "trained_at": "20200416-162832",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.2",
   "sklearn": "0.22.2.post1"
