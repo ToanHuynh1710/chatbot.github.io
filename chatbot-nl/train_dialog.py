@@ -34,5 +34,5 @@ def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models
 train_dialog('data/stories.md', 'data/domain.yml')
 
 
-# curl -XPOST http://localhost:5005/webhooks/rest/webhook -d '{"query":"hi","sender","thang"}'
+
 

@@ -29,5 +29,3 @@ def ask_question(text):
     print(interpreter.parse(text))
 
 
-# ask_question("Anh là Thắng")
-#ask_question("điều kiện khác")
