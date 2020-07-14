@@ -346,6 +346,10 @@
         "text": "làm hồ sơ mở ngành như thế nào"
       },
       {
+        "intent": "ask_thutuc",
+        "text": "hồ sơ mở ngành bao gồm những gì"
+      },
+      {
         "intent": "ask_thutuc_congvan",
         "text": "công văn đề nghị mở ngành là sao"
       },
@@ -392,6 +396,10 @@
       {
         "intent": "ask_thutuc_dean",
         "text": "trong đề án đề nghị mở ngành cần có những gì"
+      },
+      {
+        "intent": "ask_thutuc_dean",
+        "text": "đề án mở ngành có nội dung như thế nào"
       },
       {
         "intent": "ask_thutuc_tailieu",
@@ -454,6 +462,10 @@
         "text": "quy trình thẩm định chương trình đào tạo"
       },
       {
+        "intent": "ask_thamdinh",
+        "text": "thẩm định chương trình đào tạo là gì"
+      },
+      {
         "intent": "ask_thamdinh_tieuchuan",
         "text": "tiêu chuẩn của thẩm định chương trình đào tạo là gì"
       },
@@ -468,6 +480,10 @@
       {
         "intent": "ask_thamdinh_tieuchuan",
         "text": "tiêu chuẩn thẩm định là gì"
+      },
+      {
+        "intent": "ask_thamdinh_tieuchuan",
+        "text": "tiêu chuẩn của thẩm định chương trình đào tạo thì như thế nào"
       },
       {
         "intent": "ask_quyetdinhmonganh",

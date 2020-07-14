@@ -32,7 +32,7 @@ templates:
  utter_thank:
   - text: "không có gì, đó là trách nhiệm của tôi!"
  utter_unclear:
-  - text: "Hiện tại tôi chưa hiểu yêu cầu của bạn "
+  - text: "Câu hỏi của bạn có thể đã nằm ngoài nội dung. Hãy hỏi về những vấn đề mở ngành, quyết định mở ngành, đình chỉ hoặc thu hồi quyết định mở ngành, quy trình làm hồ sơ hay các vấn đề về thẩm định chất lượng"
  utter_thacsi:
   - text: 'để mở ngành thạc sĩ cần đảm bảo các điều kiện: ngành đăng ký đào tạo, đội ngũ giảng viên, cơ sở vật chất và một số điều kiện khác.' 
  utter_thacsi_nganhdaotao:
@@ -62,7 +62,7 @@ templates:
  utter_quyetdinhmonganh:
   - text: 'việc xem xét hồ sơ mở ngành đào tạo trình độ thạc sĩ, tiến sĩ được thực hiện trong thời hạn 30 ngày, kế từ ngày nhận được đủ hồ sơ theo quy định của sở đào tạo.'
  utter_dinhchi:
-  - text: 'cơ sở đào tạo bị đình chỉ tuyển sinh ngành đào tạo thạc sĩ, tiến sĩ khi để xảy ra một trong các trường hợp sau đây: không đảm bảo một trong các điều kiệu mở ngành thạc sĩ, tiến sĩ. Tổ chức tuyển sinh và đào tạo ngoài địa điểm được phép đào tạo. Không đạt điều kiện tiêu chuẩn kiểm định chương trình đào tạo của ngành đăng ký theo quy đinh của bộ GDĐT, vi phạm pháp luật về giáo dục. Không thực hiện đúng quy định chuyển giao và vi phạm các trường hợp khác theo quy định của pháp luật'
+  - text: 'cơ sở đào tạo bị đình chỉ tuyển sinh ngành đào tạo thạc sĩ, tiến sĩ khi để xảy ra một trong các trường hợp sau đây: không đảm bảo một trong các điều kiệu mở ngành thạc sĩ, tiến sĩ. Tổ chức tuyển sinh và đào tạo ngoài địa điểm được phép đào tạo. Không đạt điều kiện tiêu chuẩn kiểm định chương trình đào tạo của ngành đăng ký theo quy định của bộ GDĐT, vi phạm pháp luật về giáo dục. Không thực hiện đúng quy định chuyển giao và vi phạm các trường hợp khác theo quy định của pháp luật'
  utter_dinhchi_thoigian:
   - text: 'Thời gian đình chỉ tuyển sinh tối thiểu là 12 tháng và tối đa là 24 tháng'
  utter_dinhchi_xoa:
@@ -107,3 +107,4 @@ actions:
  - utter_thuhoi
  - utter_trachnhiem
  - utter_chuyentiep
+ - utter_unclear

@@ -1,7 +1,6 @@
 %YAML 1.1
 ---
 actions:
-- utter_unclear
 - utter_thank
 - utter_thacsi
 - utter_thacsi_nganhdaotao
@@ -27,6 +26,7 @@ actions:
 - utter_thuhoi
 - utter_trachnhiem
 - utter_chuyentiep
+- utter_unclear
 config:
   store_entities_as_slots: true
 entities: []
@@ -90,7 +90,7 @@ templates:
       để xảy ra một trong các trường hợp sau đây: không đảm bảo một trong các điều
       kiệu mở ngành thạc sĩ, tiến sĩ. Tổ chức tuyển sinh và đào tạo ngoài địa điểm
       được phép đào tạo. Không đạt điều kiện tiêu chuẩn kiểm định chương trình đào
-      tạo của ngành đăng ký theo quy đinh của bộ GDĐT, vi phạm pháp luật về giáo dục.
+      tạo của ngành đăng ký theo quy định của bộ GDĐT, vi phạm pháp luật về giáo dục.
       Không thực hiện đúng quy định chuyển giao và vi phạm các trường hợp khác theo
       quy định của pháp luật'
   utter_dinhchi_thoigian:
@@ -196,4 +196,6 @@ templates:
       quy định về thẩm định mở ngành -> Gửi hồ sơ mở ngành đào tạo đến cơ quan có
       thẩm quyền quyết định
   utter_unclear:
-  - text: 'Hiện tại tôi chưa hiểu yêu cầu của bạn '
+  - text: Câu hỏi của bạn có thể đã nằm ngoài nội dung. Hãy hỏi về những vấn đề mở
+      ngành, quyết định mở ngành, đình chỉ hoặc thu hồi quyết định mở ngành, quy trình
+      làm hồ sơ hay các vấn đề về thẩm định chất lượng

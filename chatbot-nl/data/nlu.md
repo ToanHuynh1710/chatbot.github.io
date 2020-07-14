@@ -107,6 +107,7 @@
 - làm thủ tục mở ngành ra sao
 - muốn làm hồ sơ mở ngành phải làm sao
 - làm hồ sơ mở ngành như thế nào
+- hồ sơ mở ngành bao gồm những gì
 
 ## intent:ask_thutuc_congvan
 - công văn đề nghị mở ngành là sao
@@ -123,6 +124,7 @@
 - trong đề án đề nghị mở ngành cần có gì
 - trong đề án đề nghị mở ngành cần những gì
 - trong đề án đề nghị mở ngành cần có những gì
+- đề án mở ngành có nội dung như thế nào
 
 ## intent:ask_thutuc_tailieu
 - tài liệu bao gồm những gì
@@ -142,12 +144,14 @@
 - cần điều kiện gì để thẩm định chương trình đào tạo
 - muốn thẩm định chương trình đào tạo cần phải làm gì
 - quy trình thẩm định chương trình đào tạo
+- thẩm định chương trình đào tạo là gì
 
 ## intent:ask_thamdinh_tieuchuan
 - tiêu chuẩn của thẩm định chương trình đào tạo là gì
 - tiêu chuẩn của thẩm định chương trình đào tạo thạc sĩ là gì
 - tiêu chuẩn của thẩm định chương trình đào tạo tiến sĩ là gì
 - tiêu chuẩn thẩm định là gì
+- tiêu chuẩn của thẩm định chương trình đào tạo thì như thế nào
 
 ## intent:ask_quyetdinhmonganh
 - trong bao lâu thì được xét mở ngành
