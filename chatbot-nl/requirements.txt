@@ -101,7 +101,7 @@ PyAudio==0.2.11
 pycparser==2.19
 pydot==1.4.1
 pygame==1.9.6
-Pygments==2.5.2
+Pygments==2.7.4
 PyHamcrest==2.0.0
 PyJWT==1.7.1
 pykwalify==1.7.0
